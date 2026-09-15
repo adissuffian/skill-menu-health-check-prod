@@ -1,5 +1,5 @@
 ---
-name: menu-health-check-stage
+name: menu-health-check
 description: "Check if the menu for each Domino's market is up or down in the staging environment. Use when: verifying menu availability, checking market health, staging environment menu status, market menu up/down check."
 argument-hint: "Specify market codes (e.g., AU, NZ, JP) or 'all' to check every market"
 ---
