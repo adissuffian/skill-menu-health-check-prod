@@ -1,34 +1,34 @@
 ---
 name: menu-health-check
-description: "Check if the menu for each Domino's market is up or down in the staging environment. Use when: verifying menu availability, checking market health, staging environment menu status, market menu up/down check."
+description: "Check if the menu for each Domino's market is up or down in the production environment. Use when: verifying menu availability, checking market health, production menu status, market menu up/down check."
 argument-hint: "Specify market codes (e.g., AU, NZ, JP) or 'all' to check every market"
 ---
 
-# Menu Health Check — Stage Environment
+# Menu Health Check — Production Environment
 
-Check whether the ordering menu is accessible for each Domino's market in the staging environment by navigating through the order flow.
+Check whether the ordering menu is accessible for each Domino's market in the production environment by navigating through the order flow.
 
 ## When to Use
 
 - Verify menu availability across markets after a deployment
-- Check if a specific market's menu is up or down in staging
-- Validate staging environment health before release
+- Check if a specific market's menu is up or down in production
+- Validate production environment health before release
 
 ## Market URLs
 
-| Market | Code | Stage URL |
+| Market | Code | Production URL |
 |--------|------|-----------|
-| Australia | AU | https://order.dominostest.com.au/ |
-| New Zealand | NZ | https://order.dominostest.co.nz/ |
-| Japan | JP | https://internetorder.dominostest.jp/ |
-| France | FR | https://commande.dominostest.fr/ |
-| Belgium | BE | https://order.dominostest.be/ |
-| Germany | DE | https://bestellen.dominostest.de/ |
-| Netherlands | NL | https://bestellen.dominostest.nl/ |
-| Luxembourg | LU | https://order.dominostest.lu/ |
-| Singapore | SG | https://order.dominostest.com.sg/ |
-| Malaysia | MY | https://order.dominostest.com.my/ |
-| Taiwan | TW | https://order.dominostest.com.tw/ |
+| Australia | AU | https://order.dominos.com.au/ |
+| New Zealand | NZ | https://order.dominos.co.nz/ |
+| Japan | JP | https://internetorder.dominos.jp/ |
+| France | FR | https://commande.dominos.fr/ |
+| Belgium | BE | https://order.dominos.be/ |
+| Germany | DE | https://bestellen.dominos.de/ |
+| Netherlands | NL | https://bestellen.dominos.nl/ |
+| Luxembourg | LU | https://order.dominos.lu/ |
+| Singapore | SG | https://order.dominos.com.sg/ |
+| Malaysia | MY | https://order.dominos.com.my/ |
+| Taiwan | TW | https://order.dominos.com.tw/ |
 
 ## Test Data
 
@@ -110,6 +110,6 @@ In the Notes column, identify the evidence level: `End-to-end` when the complete
 
 ## Important Notes
 
-- These are **staging environment** URLs — they may require VPN or network access.
+- These are **production environment** URLs — they may require VPN or network access.
 - Some markets may have different UI layouts or languages; adapt the flow accordingly.
 - The browser tools will provide snapshots in accessibility-tree format — use these to identify buttons, inputs, and links.
