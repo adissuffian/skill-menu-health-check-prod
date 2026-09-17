@@ -33,7 +33,7 @@ Check whether the ordering menu is accessible for each Domino's market in the pr
 ## Test Data
 
 Refer to [market test data](./references/market-test-data.md) for official official market test stores and addresses for each market.
-Source: [market test data NextGen OLO App](https://dominos.atlassian.net/wiki/spaces/SellAndTrack/pages/1990721737/CI+STAGE+Test+Data+NextGen+OLO+App#Test-Stores)
+Source: Official market test data maintained by the Domino's ordering team.
 
 ## Procedure
 
