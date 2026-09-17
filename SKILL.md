@@ -32,8 +32,8 @@ Check whether the ordering menu is accessible for each Domino's market in the pr
 
 ## Test Data
 
-Refer to [market test data](./references/market-test-data.md) for official CI/Stage test stores and addresses for each market.
-Source: [CI STAGE Test Data NextGen OLO App](https://dominos.atlassian.net/wiki/spaces/SellAndTrack/pages/1990721737/CI+STAGE+Test+Data+NextGen+OLO+App#Test-Stores)
+Refer to [market test data](./references/market-test-data.md) for official official market test stores and addresses for each market.
+Source: [market test data NextGen OLO App](https://dominos.atlassian.net/wiki/spaces/SellAndTrack/pages/1990721737/CI+STAGE+Test+Data+NextGen+OLO+App#Test-Stores)
 
 ## Procedure
 
@@ -41,7 +41,7 @@ For each market (or specified markets), perform the following steps using browse
 
 ### 1. Open Homepage
 
-- Navigate to the market's stage URL from the table above.
+- Navigate to the market's production URL from the table above.
 - Wait for the page to fully load.
 - Take a snapshot to confirm the homepage is displayed.
 
